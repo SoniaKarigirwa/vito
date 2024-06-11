@@ -1,0 +1,2 @@
+0 okay_sign
+1 not okay_sign
