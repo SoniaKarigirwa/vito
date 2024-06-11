@@ -8,7 +8,10 @@
 02_create_clusters.py<br>
 03_rearrange_data.py<br>
 04_train_model.py<br>
-05_make_predictions.py<br>pytho
+05_make_predictions.py<br>
+06_ok_sign_prediction.py<br>
+07_main.py<br>
+db_conf.py<br>
 
 <strong>3. Details</strong><br>
 
