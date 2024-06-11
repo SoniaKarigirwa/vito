@@ -1,9 +1,6 @@
-<h1>Summary and Assignment</h1>
-<strong>1. Purpose</strong><br>
-<i>In order to avoid hardcoding the names to be displayed when a certain face with a specific ID is recognized, we can dynamically fetch the customer names from the database based on the predicted ID. </i>
-<br><br>
 
-<strong>2. Files</strong><br>
+
+Files<br>
 01_create_dataset.py<br>
 02_create_clusters.py<br>
 03_rearrange_data.py<br>
@@ -13,7 +10,7 @@
 07_main.py<br>
 db_conf.py<br>
 
-<strong>3. Details</strong><br>
+Details<br>
 
 01_create_dataset.py<br>
 This code captures grayscale images of a person's face using a webcam, saves them, and stores corresponding metadata (customer name, image path) in a SQLite database.
