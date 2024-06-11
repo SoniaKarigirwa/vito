@@ -37,20 +37,14 @@ This code utilizes a pre-trained LBPH (Local Binary Patterns Histograms) face re
 
 ++++++++++++++++
 
-<strong>4. Assignment (corrected)</strong><br><br>
-Instead of displaying the ID, fetch and display info (Full Name in this case) of the person whose face is recognized based on the predicted ID (UID) from the database.
+06_ok_sign_predictions.py<br>
+This script uses a pre-trained Keras model to detect and predict hand gestures, specifically focusing on the "okay" sign. The process involves capturing frames from a webcam feed, resizing and normalizing these frames, and then feeding them into the model for prediction. The model returns a confidence score for the detected gesture, which is then displayed along with the predicted class. The script continues to run, updating predictions in real-time until the user presses the 'esc' key to exit the loop, releasing the camera and closing all OpenCV windows.
 
 ++++++++++++++++
 
-<strong>5. Querying SQLite DB</strong><br><br>
-Assuming SQLite3 is installed,
-start by typing the command 'sqlite3 customer_faces_data.db'.
-You'll then get a prompt
-sqlite>
+07_main.py<br>
+This script integrates okay_sign detection and face detection and then updates the database.
 
-Go ahead and type commands like 
-pragma table_info (customers);
-select * from customers;
-...
+
 
 
